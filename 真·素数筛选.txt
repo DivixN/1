@@ -15,7 +15,7 @@ int main()
     for(n=2;n<num;n++){
         if(arr[n]){
             for(i=2;i<num;i++){
-                if(i*n >10000){//i*n大于你的数组就要结束啊，你一个大于10000的数放在只有a[10000]的哪里
+                if(i*n >10000){
                     break;
                 }
                 else
